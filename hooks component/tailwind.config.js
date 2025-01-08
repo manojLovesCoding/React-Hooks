@@ -1,10 +1,6 @@
-/** @type {import('tailwindcss').Config} */
-import withMT from "@material-tailwind/react/utils/withMT";
-
-export default withMT({
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {}
-  },
-  plugins: []
-});
+export const darkMode = "class";
+export const content = ["./src/**/*.{js,jsx,ts,tsx}"];
+export const theme = {
+  extend: {}
+};
+export const plugins = [];

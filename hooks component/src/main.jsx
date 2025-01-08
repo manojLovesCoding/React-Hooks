@@ -1,14 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import App from "./App";
-import "./index.css";
+import "./assets/styles/globals.css";
 
-import { ThemeProvider } from "@material-tailwind/react";
-
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <ThemeProvider>
-      <App />
-    </ThemeProvider>
-  </React.StrictMode>
-);
+// eslint-disable-next-line react/no-deprecated
+ReactDOM.render(<App />, document.getElementById("root"));
